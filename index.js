@@ -23,7 +23,17 @@ let wpmWords = [
 ];
 
 // Number of words per row
-const STEP = 16;
+let width = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+let STEP;
+if(width < 800) {
+    STEP = 5;
+}
+else if(800 < width && width < 1400) {
+    STEP = 12;
+}
+else{
+    STEP = 20;
+}
 
 // Shuffle the words array for randomness
 for (let i = wpmWords.length - 1; i > 0; i--) { 
