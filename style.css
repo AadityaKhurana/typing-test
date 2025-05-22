@@ -1,0 +1,49 @@
+body{
+    background-color: #1A1A1A;
+    color: #FAEDCA;
+}
+
+.custom-color{
+    background-color: #FAEDCA;
+    color: #1A1A1A;
+}
+.custom-color:hover{
+    background-color: #F2C078;
+    color: #1A1A1A;
+}
+
+.custom-color-outline{
+    background-color: #1A1A1A;
+    color: #F2C078;
+    border: 2px solid #F2C078;
+}
+
+.custom-color-outline:hover{
+    background-color: #FAEDCA;
+    color: #1A1A1A;
+}
+
+.word{
+    font-size: large;
+    font-weight: 700;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.navbar{
+    background-color: #FAEDCA;
+    color: #1A1A1A;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.correct{
+    color: #5A9E4B;
+}
+.word.active{
+    background-color: #F2C078;
+    color: #2D3B26;
+}
+.incorrect{
+    color: #D9534F;
+}
